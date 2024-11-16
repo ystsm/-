@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>纳西妲 - 原神中的智慧之神</title>
+  <link rel="stylesheet" href="styles.css"> <!-- 引入外部CSS样式表，使代码更整洁 -->
+
+  <!-- 添加背景音乐 -->
+  <audio id="myAudio"></audio>
+
+ </head>
+
+<body>
+
+  <video controls="true" autoplay="true" name="media" loop="true" hidden="true"> <source src="2.mp4" type="vedio/mpeg"></video>
+  <header>
+    <h1>纳西妲 - 原神角色介绍</h1>
+  </header>
+  <main>
+   <button class="icon" onclick="playMusic()"></button>
+    <section class="character-section">
+      <img src="纳西妲.png" alt="纳西妲" width="60%" height="auto">
+      <div class="description">
+        <h2>角色简介</h2>
+        <p>纳西妲，作为《原神》草之国须弥的智慧之神，身形虽小巧可爱，却蕴藏着无尽智慧。她被困于净善宫许久，与世隔绝，但这并未妨碍她洞悉须弥大陆的点滴。她以独特方式观察和思考世界，展现出其非凡之处。</p>
+      </div>
+    </section>
+    <section class="character-section">
+      <div class="description">
+        <h2>角色技能</h2>
+        <p>纳西妲的技能独具魅力。其普通攻击可对敌人施加草元素伤害。元素战技能召唤神秘力量，有效控制范围内敌人并持续造成草元素伤害。而元素爆发更是威力惊人，可在大面积区域引发强大草元素反应，与其他元素配合能创造出奇妙战斗效果。</p>
+      </div>
+    </section>
+    <section class="character-section">
+      <div class="description">
+        <h2>角色性格</h2>
+        <p>纳西妲性格温柔善良，即便历经苦难，仍对世界充满好奇与善意。她渴望与人交流，聆听故事，并且总是积极运用智慧帮助他人。</p>
+      </div>
+    </section>
+  </main>
+  <footer>2024 All Rights Reserved.</footer>
+</body>
+<script>
+  function playMusic() {
+  var audio = document.getElementById('myAudio');
+  audio.src = '202411161638.mp3';
+  audio.autoplay = true;
+  audio.loop = true;
+}
+</script>
+</html>
